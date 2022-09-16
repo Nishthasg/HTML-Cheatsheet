@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(50, 47, 47);
+    color: aliceblue;
+    height:56px;
+}
+.content{
+    font-family: 'Merriweather', serif;
+}
+.container{
+    
+    width: 50vw;
+    padding:25px 0;
+    margin:auto;
+    font-family:  'Roboto', sans-serif;
+}
+.logo{
+  padding: 0 6px 0;
+}
+
+.logo img{
+    filter: invert();
+    width:auto;
+}
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border-radius: 15px !important;
+    padding: 5px 14px !important;
+}
+
